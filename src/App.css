@@ -44,7 +44,7 @@
   height: 50%;
   padding: 10px;
   margin: 15px;
-  background-image: url("blockBG.png");
+  background-image: url("./assets/blockBG.png");
 }
 
 .galleries {

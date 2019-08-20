@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.css';
 import { Link } from 'react-router-dom'
-import designLogo from './designLogo.png'
-import projectsLogo from './projectsLogo.png'
-import resumeLogo from './chatLogo.png'
+import designLogo from './assets/designLogo.png'
+import projectsLogo from './assets/projectsLogo.png'
+import resumeLogo from './assets/chatLogo.png'
 
 const Home = () => (
     <div>

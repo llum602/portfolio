@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import mainLogo from'./resumeLogoEdit.png';
+import mainLogo from'./assets/resumeLogoEdit.png';
 import './App.css';
 
 const Header = () => (
