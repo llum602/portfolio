@@ -1,38 +1,24 @@
 import React, {Component} from 'react';
 import './App.css';
-import Lightbox from 'react-images';
 import Gallery from 'react-photo-gallery';
 import bellTower from'./assets/bellTower.jpeg';
-import shoeWire from'./assets/shoeWire.png';
-import foxMask from'./assets/foxMask.jpeg';
-import deerForest from './assets/deerForest.jpeg';
-import forest from './assets/forest.png';
-import chordIcon3 from './assets/chordIcon3.png';
-import transistorSword from './assets/transistorSword.jpeg';
-import worldLogo from './assets/worldLogo.png';
-import deer from './assets/deer.png';
 import ikuCircle from './assets/home_graphic_circle.png';
 import ikuRect from './assets/home_graphic.png';
-import tunercat from './assets/tunercat.jpg';
 import cswnFoot from './assets/footer_graphic.png';
 import cswnWorld from './assets/cswn_home_graphic.png';
 import cswnWebLogo from './assets/web_logo_3.png';
 import cswnLogo from './assets/puzz_day_logo.png';
+import tabLogo1 from './assets/camp_shirt_color.png';
+import tabLogo2 from './assets/camp_shirtDesign.png';
+import waveDesign from './assets/wave_design.png';
+import olympic from './assets/olympic.png';
+import pertrek from './assets/airplane-logo-red-square.png';
 
 
-const photos = [
-  { src: cswnFoot, width: 9, height: 1.3 },
-  { src: cswnWebLogo, width: 5, height: 5 },
-  { src: cswnLogo, width: 3, height: 3 },
-  { src: cswnWorld, width: 4, height: 4 },
-  { src: ikuCircle, width: 3, height: 3 },
-  { src: ikuRect, width: 3.1, height: 2 },
-
-  { src: bellTower, width: 3, height: 3 },
-  // { src: foxMask, width: 3, height: 3 },
-  // { src: chordIcon3, width: 2, height: 2 },
-  // { src: transistorSword, width: 1, height: 2 },
-];
+const tableauPhotos = [
+  { src: tabLogo1, width: 2, height: 2 },
+  { src: tabLogo2, width: 3, height: 3 },
+]
 
 const cswnPhotos = [
   { src: cswnFoot, width: 9, height: 1.3 },
@@ -48,6 +34,10 @@ const ikuPhotos = [
 
 const otherPhotos = [
   { src: bellTower, width: 3, height: 3 },
+  { src: waveDesign, width: 3, height: 3 },
+  { src: olympic, width: 3, height: 3 },
+  { src: pertrek, width: 3, height: 3 },
+
 ]
 
 class Design extends Component {
@@ -91,6 +81,14 @@ class Design extends Component {
     return (
       <div className="galleries">
         <div className="title">Lauren Lum</div>
+
+        <div className="sectionHead">Tableau</div>
+        <div className="sectionDesc">
+          These logos were created during my internship at Tableau during Summer 2020- after entering them
+          in a contest with designs from other interns, it received the most votes and was printed on shirts that
+          would be distributed to all Tableau interns.
+        </div>
+        <Gallery photos={tableauPhotos}/>
 
         <div className="sectionHead">CSWN</div>
         <div className="sectionDesc">

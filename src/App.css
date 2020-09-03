@@ -55,12 +55,14 @@
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 30px;
+  margin-top: 20px;
 }
 
 .sectionDesc {
   color: rgb(31, 31, 31);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .title {
